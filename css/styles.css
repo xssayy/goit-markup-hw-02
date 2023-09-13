@@ -38,6 +38,7 @@ button {
   font-weight: 700;
   color: #2e2f42;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 /* general classes end */
 
@@ -64,7 +65,11 @@ nav .navigation-pages {
   letter-spacing: 0 2em;
 }
 
-nav .navigation-pages .page-link > a:hover {
+nav .navigation-pages .page-link {
+  color: inherit;
+}
+
+nav .navigation-pages .page-link:hover {
   color: #404bbf;
 }
 
@@ -73,6 +78,10 @@ nav .navigation-pages .page-link > a:hover {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.company-contacts .contact {
+  color: inherit;
 }
 
 .company-contacts .contact:hover,
@@ -133,7 +142,6 @@ nav .navigation-pages .page-link > a:hover {
 }
 .team-section .member-card .item-title {
   text-align: center;
-  text-transform: capitalize;
 }
 
 .team-section .member-card .item-text {
@@ -146,6 +154,10 @@ nav .navigation-pages .page-link > a:hover {
 }
 
 .project-card {
+}
+
+.portfolio-section .section-main-title {
+  text-align: center;
 }
 
 .portfolio-section .project-card {
