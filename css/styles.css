@@ -17,6 +17,28 @@ button {
   cursor: pointer;
 }
 
+.item-title {
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  font-weight: 500;
+}
+
+.item-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: inherit;
+}
+
+.section-main-title {
+  font-size: 36px;
+  line-height: 1.11;
+  font-weight: 700;
+  color: #2e2f42;
+  letter-spacing: 0.02em;
+}
 /* general classes end */
 
 /* header-styles stars*/
@@ -58,10 +80,8 @@ nav .navigation-pages .page-link > a:hover {
   color: #404bbf;
 }
 
-/* header-styles end*/
-
-/* main-block-styles start */
-
+/* main-block-styles start*/
+/* introduction-section */
 .introduction-section {
   background-color: #2e2f42;
 }
@@ -87,4 +107,63 @@ nav .navigation-pages .page-link > a:hover {
 .introduction-section .order-service-button:hover,
 .introduction-section .order-service-button:focus {
   background-color: #404bbf;
+}
+
+/* advantages-section */
+.advantages-section {
+}
+
+.advantages-section > .adv-list {
+}
+
+/* team-section*/
+.team-section {
+  background-color: #f4f4fd;
+}
+
+.team-section .section-main-title {
+  text-align: center;
+}
+
+.team-section .member-card {
+  background-color: #ffffff;
+}
+
+.team-section .member-card .member-photo {
+}
+.team-section .member-card .item-title {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.team-section .member-card .item-text {
+  text-align: center;
+}
+
+/* portfolio section */
+
+.portfolio-section {
+}
+
+.project-card {
+}
+
+.portfolio-section .project-card {
+  border: 1px solid #e7e9fc;
+}
+
+.project-card .project-preview {
+}
+
+/* footer*/
+.footer {
+  background-color: #2e2f42;
+}
+
+.footer .item-text {
+  color: #f4f4fd;
+}
+
+.footer .logo > .logo-span {
+  color: #f4f4fd;
 }
