@@ -66,10 +66,12 @@ nav .navigation-pages {
 }
 
 nav .navigation-pages .page-link {
-  color: inherit;
+  color: #2e2f42;
+  letter-spacing: 0.02m;
 }
 
-nav .navigation-pages .page-link:hover {
+nav .navigation-pages .page-link:hover,
+nav .navigation-pages .page-link:active {
   color: #404bbf;
 }
 
@@ -81,7 +83,7 @@ nav .navigation-pages .page-link:hover {
 }
 
 .company-contacts .contact {
-  color: inherit;
+  color: #434455;
 }
 
 .company-contacts .contact:hover,
