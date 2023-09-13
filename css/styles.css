@@ -1,0 +1,90 @@
+/* general classes start */
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* general classes end */
+
+/* header-styles stars*/
+.logo {
+  font-family: "Raleway", sans-serif;
+  color: #4d5ae5;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.logo > .logo-span {
+  color: #2e2f42;
+}
+
+nav .navigation-pages {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0 2em;
+}
+
+nav .navigation-pages .page-link > a:hover {
+  color: #404bbf;
+}
+
+.company-contacts {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.company-contacts .contact:hover,
+.company-contacts .contact:focus {
+  color: #404bbf;
+}
+
+/* header-styles end*/
+
+/* main-block-styles start */
+
+.introduction-section {
+  background-color: #2e2f42;
+}
+
+.introduction-section .page-title {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  text-align: center;
+}
+
+.introduction-section .order-service-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: #4d5ae5;
+  color: #ffffff;
+}
+
+.introduction-section .order-service-button:hover,
+.introduction-section .order-service-button:focus {
+  background-color: #404bbf;
+}
